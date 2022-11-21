@@ -1,2 +1,5 @@
-#input {display : block; margin-bottom : 50px;}
-#output {display : block; margin-top : 50px;}
+body {display : flex; overflow : hidden;}
+section {width : 50vw;}
+#input {display : block; margin-bottom : 20px;}
+#output {display : block; }
+#result {border : solid 1px black; height : 85vh;}

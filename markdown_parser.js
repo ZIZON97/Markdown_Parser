@@ -4,9 +4,11 @@ textArea.addEventListener("input", (event) =>convert());
 function convert() {
     var inputTextArea = document.getElementById('input');
     var outputTextArea = document.getElementById('output');
+    var resultNode = document.getElementById('result');
     
     var inputText = inputTextArea.value;
     outputTextArea.innerHTML = parse(inputText);
+    resultNode.innerHTML = parse(inputText);
 }
 
 function parse(md) {
